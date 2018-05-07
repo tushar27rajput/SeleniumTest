@@ -20,9 +20,9 @@ public class Autosikuli1
 		driver.manage().window().maximize();
 		driver.get("https://www.facebook.com");
 		sc.wait(image, 10);
-		sc.type(image, "9579778909");
+		sc.type(image, "**********");
 		
-		sc.type(image4, "1ntel@metbkc");
+		sc.type(image4, "***********");
 		sc.click(image0);
 		
 		
