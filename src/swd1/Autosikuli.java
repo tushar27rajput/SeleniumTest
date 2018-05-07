@@ -27,9 +27,9 @@ public class Autosikuli
 		
 		sc.click(image4);
 		
-		sc.type(image0, "tushar.rajput774");
+		sc.type(image0, "abc.xyz");
 		sc.click(image1);
-		sc.type(image2, "nokia5233ebay");
+		sc.type(image2, "********");
 		sc.click(image3);
 		
 		
