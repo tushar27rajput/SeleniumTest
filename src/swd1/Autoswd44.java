@@ -25,7 +25,7 @@ public class Autoswd44
 		r.keyRelease(KeyEvent.VK_X);
 		r.keyRelease(KeyEvent.VK_SPACE);
 		r.keyRelease(KeyEvent.VK_ALT);
-		Thread.sleep(5000);
+		r.delay(5000);
 		
 		//Create New File
 		r.keyPress(KeyEvent.VK_ALT);
@@ -36,39 +36,39 @@ public class Autoswd44
 		
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(5000);
+		r.delay(5000);
 		
 		//Send Data to Notepad
-		StringSelection x=new StringSelection("Welcome To Jalgaon");
+		StringSelection x=new StringSelection("HELLO WORLD!!!");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(x, null);
 		
 		r.keyPress(KeyEvent.VK_CONTROL);
 		r.keyPress(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(5000);
+		r.delay(5000);
 		
 		
 		r.keyPress(KeyEvent.VK_CONTROL);
 		r.keyPress(KeyEvent.VK_S);
 		r.keyRelease(KeyEvent.VK_S);
 		r.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(5000);
+		r.delay(5000);
 		
 		//Save the File
 		
-		StringSelection ss_1=new StringSelection("E:\\swd\\tushar1.txt");
+		StringSelection ss_1=new StringSelection("E:\\swd\\hello.txt");
 		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss_1, null);
 		
 		r.keyPress(KeyEvent.VK_CONTROL);
 		r.keyPress(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_CONTROL);
-		Thread.sleep(5000);
+		r.delay(5000);
 		
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
-		Thread.sleep(5000);
+		r.delay(5000);
 
 		r.keyPress(KeyEvent.VK_ALT);
 		r.keyPress(KeyEvent.VK_F4);
